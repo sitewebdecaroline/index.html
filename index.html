@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon premier site</title>
+    
+
+    <style>
+        body {
+    background-color: pink;
+}
+       
+
+        h1 {
+            color: green;
+        }
+
+        p {
+    font-size: 20px;
+}
+    </style>
+</head>
+<script>
+    alert("Caroline vous souhaite une belle journée ensoleillée !");
+</script>
+<body>
+
+    <h1>Bonjour 👋</h1>
+
+    <p>Je m'appelle Caroline.</p>
+
+    <p>Je commence ma reconversion dans le développement web.</p>
+    <p>Je crée ma première page.</p>
+    <p> Ma maman est la plus belle!</p>
+    <p> Mon papa pue du cul ! </p>
+
+    <ul>
+    <li>Informatique</li>
+    <li>Apprendre</li>
+    <li>Télétravail</li>
+</ul>
+
+<button onclick="alert('Tu as cliqué !')">
+    Clique-moi
+</button>
+<h1 id="titre">Bonjour 👋</h1>
+    <button onclick="changerTexte()">
+        Clique-moi
+    </button>
+
+    <script>
+        function changerTexte() {
+            document.getElementById("titre").innerText = "Bravo 🎉 tu as cliqué !";
+        }
+    </script>
+    <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Compteur</title>
+</head>
+
+<body>
+
+    <h1>Compteur de clics</h1>
+
+    <h2 id="count">0</h2>
+
+    <button onclick="augmenter()">
+        +1
+    </button>
+
+    <button onclick="reset()">
+        Reset
+    </button>
+
+    <button onclick="diminuer()">
+        -1
+    </button> 
+    <script>
+        let compteur = 0;
+
+        function augmenter() {
+            compteur = compteur + 1;
+            document.getElementById("count").innerText = compteur;
+        }
+
+        function reset() {
+            compteur = 0;
+            document.getElementById("count").innerText = compteur;
+        }
+       function diminuer() { compteur = compteur - 1;
+        document.getElementById("count").innerText=compteur;
+         }
+
+         
+    </script>
+
+</body>
+</html>
+
+</body>
+</html>
